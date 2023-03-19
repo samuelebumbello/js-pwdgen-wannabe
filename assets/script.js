@@ -11,19 +11,18 @@
 
 **************************************************************/
 
-const name = parseInt(prompt ("Inserisci il tuo nome"))
+const name = (prompt ("Inserisci il tuo nome"))
 console.log(name)
 
-const surname = parseInt(prompt ("Inserisci il tuo cognome"))
+const surname = (prompt ("Inserisci il tuo cognome"))
 console.log(surname)
 
-const color = parseInt(prompt("Inserisci il tuo colore preferito"))
+const color = (prompt("Inserisci il tuo colore preferito"))
 console.log(color)
 
 const outputStr = `
-nome ${name}
-cognome ${surname}
-colorepreferito23 ${color}
+Hello ${name + ' ' + surname} <br>
+Your favorite color is ${color}
 `
 console.log(outputStr)
 
